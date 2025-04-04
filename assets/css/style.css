@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">LOGO</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Title Bar -->
+    <header>
+        <h1>Title</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <div class="menu-container">
+        <button class="menu-btn"></button>
+        <button class="menu-btn"></button>
+        <button class="menu-btn"></button>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="photo-section">
+            <div class="photo-box">
+                <div class="photo">Photo</div>
+                <button class="about-btn">About</button>
+            </div>
+            <div class="photo-box">
+                <div class="photo">Photo</div>
+                <button class="about-btn">About</button>
+            </div>
+            <div class="photo-box">
+                <div class="photo">Photo</div>
+                <button class="about-btn">About</button>
+            </div>
+            <div class="photo-box">
+                <div class="photo">Photo</div>
+                <button class="about-btn">About</button>
+            </div>
+        </div>
+    </main>
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+navbar {
+    selector-specificity: (0, 0, 1)
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2A5D34;
+    padding: 15px 30px;
+}
+
+nav-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav-links li {
+    display: inline;
+}
+
+nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Title Bar */
+header {
+    background: #86B26F;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+
+/* Navigation Menu */
+menu-container {
+    display: flex;
+    justify-content: center;
+    background: #6B9D5B;
+    padding: 10px;
+    gap: 20px;
+}
+
+menu-btn {
+    background: #E79D56;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    background: #35691C;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+photo-section {
+    display: flex;
+    gap: 20px;
+}
+
+photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+photo {
+    background: #D9843D;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+about-btn {
+    background: #F4D35E;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #35691C;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+bottom-btn {
+    background: #E79D56;
+    padding: 10px 20
+}

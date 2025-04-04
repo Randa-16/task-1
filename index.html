@@ -4,17 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Title Here</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>My Website</h1>
+        <h1>My Holiday Photo's</h1>
     </header>
-    <main>
-        <p>Insert Introduction Here</p>
-    </main>
-    <footer>
-        <p>Start Footer Here</p>
-    </footer>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-green-600 p-4">
+        <div class="container mx-auto flex justify-center">
+            <ul class="flex justify-between w-full max-w-lg">
+                <li><a href="#section1" class="text-white hover:underline">Holiday - Figi</a></li>
+                <li><a href="#section2" class="text-white hover:underline">Holiday - Canada</a></li>
+                <li><a href="#section3" class="text-white hover:underline">Holiday - Spain</a></li>
+                <li><a href="#section4" class="text-white hover:underline">Holiday - Germany</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mx-auto mt-8 grid grid-cols-2 gap-4">
+        <div class="flex flex-col items-center">
+                        <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+
+                <span class="text-white">Image 1</span>
+            </div>
+            <div class="p-4 bg-orange-100 border rounded-lg shadow">Description</div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+                <span class="text-white">Image 2</span>
+            </div>
+            <div class="p-4 bg-orange-200 border rounded-lg shadow">Description</div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+                <span class="text-white">Image 3</span>
+            </div>
+            <div class="p-4 bg-orange-300 border rounded-lg shadow">Description</div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+                <span class="text-white">Image 4</span>
+            </div>
+            <div class="p-4 bg-orange-400 border rounded-lg shadow">Description</div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+                <span class="text-white">Image 5</span>
+            </div>
+            <div class="p-4 bg-orange-500 border rounded-lg shadow">Description</div>
+        </div>
+        <div class="flex flex-col items-center">
+            <div class="w-full h-40 bg-orange-500 border rounded-lg mb-2 flex items-center justify-center">
+                <span class="text-white">Image 4</span>
+            </div>
+            <div class="p-4 bg-orange-600 border rounded-lg shadow">Description</div>
+    </div>
+<!-- Floating Button in Bottom Right Corner -->
+    <button class="fixed bottom-5 right-5 bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 transition">
+        Finish Holiday Pics
+    </button>
+    <button class="fixed bottom-5 left-5 bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-700 transition">
+        Add Another Page
+    </button>
 </body>
 </html>
